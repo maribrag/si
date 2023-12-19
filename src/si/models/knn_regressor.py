@@ -28,6 +28,3 @@ class KNNRegressor:
         actual_values = test_dataset.y
         rmse = np.sqrt(np.mean(np.square(predictions - actual_values)))
         return rmse
-
-
-
